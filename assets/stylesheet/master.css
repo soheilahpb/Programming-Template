@@ -1,0 +1,415 @@
+@font-face {
+  font-family: reg;
+  src: url(font/RobotoCondensed-Regular.ttf);
+}
+body {
+  font-family: reg;
+}
+body > main {
+  background-color: #0E0F11;
+}
+body > main > .head {
+  width: 100%;
+  min-height: 100vh;
+}
+body > main > .head > .row {
+  background-color: #0E0F11;
+  height: 70px;
+  padding: 20px 51px;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 999;
+}
+body > main > .head > .row > figure {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body > main > .head > .row > figure > img {
+  width: 100%;
+  height: 100%;
+}
+body > main > .head > .row > nav {
+  margin-left: 10vw;
+}
+body > main > .head > .row > nav > ul {
+  width: 40vw;
+  height: 90%;
+  display: flex;
+}
+body > main > .head > .row > nav > ul > li {
+  width: 25%;
+  height: 100%;
+  font-size: 1vw;
+}
+body > main > .head > .row > nav > ul > li > a {
+  display: flex;
+  color: #C0C0C0;
+  width: 60px;
+  transition: 0.4s;
+}
+body > main > .head > .row > nav > ul > li > a:hover {
+  color: #f6e760;
+}
+body > main > .head > .row > a {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #7e7e7f;
+  border-radius: 50px;
+  margin-left: 10.25vw;
+  width: 11vw;
+  height: 3vw;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+body > main > .head > .row > a:hover {
+  border: 1px solid white;
+}
+body > main > .head > .row > a:hover > span:last-of-type {
+  opacity: 1;
+  margin-top: -3px;
+}
+body > main > .head > .row > a:hover > span:first-of-type {
+  opacity: 0;
+  margin-top: -20px;
+}
+body > main > .head > .row > a > span {
+  color: #C0C0C0;
+  transition: 0.4s;
+}
+body > main > .head > .row > a > span:first-of-type {
+  margin-top: 10px;
+}
+body > main > .head > .row > a > span:last-of-type {
+  opacity: 0;
+  margin-top: -10px;
+}
+body > main > .head > section {
+  padding: 100px 100px;
+  min-height: 100vh;
+}
+body > main > .head > section > .row {
+  min-height: 80vh;
+  justify-content: space-between;
+}
+body > main > .head > section > .row > .para {
+  width: 40%;
+}
+body > main > .head > section > .row > .para > span {
+  color: #f6e760;
+  text-decoration: underline;
+}
+body > main > .head > section > .row > .para > h2 {
+  color: #C0C0C0;
+  font-size: 4vw;
+}
+body > main > .head > section > .row > .para > p {
+  color: #b4b0a0;
+  font-size: 1.5vw;
+}
+body > main > .head > section > .row > .para > a {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #7e7e7f;
+  border-radius: 50px;
+  width: 18vw;
+  height: 4vw;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+body > main > .head > section > .row > .para > a:hover {
+  border: 1px solid white;
+}
+body > main > .head > section > .row > .para > a:hover > span:last-of-type {
+  opacity: 1;
+  margin-top: -3px;
+}
+body > main > .head > section > .row > .para > a:hover > span:first-of-type {
+  opacity: 0;
+  margin-top: -20px;
+}
+body > main > .head > section > .row > .para > a > span {
+  color: #C0C0C0;
+  transition: 0.4s;
+}
+body > main > .head > section > .row > .para > a > span:first-of-type {
+  margin-top: 10px;
+}
+body > main > .head > section > .row > .para > a > span:last-of-type {
+  opacity: 0;
+  margin-top: -10px;
+}
+body > main > .head > section > .row > .pic {
+  width: 44%;
+  background-image: url(../images/background-3.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+body > main > .head > section > .row > .pic > figure > * {
+  height: 28vw;
+  border-radius: 5px;
+}
+body > main > .head > section > .row > .pic > figure:first-of-type {
+  margin-top: 30px;
+  margin-left: -65px;
+}
+body > main > .head > section > .row > .pic > figure:last-of-type {
+  margin-top: 110px;
+  margin-right: -30px;
+}
+body > main > .sponsers {
+  padding: 40px 0;
+}
+body > main > .sponsers > .img-sponsers {
+  justify-content: space-evenly;
+  padding: 50px 0;
+}
+body > main > .sponsers > .trust > .row:first-of-type {
+  width: 40%;
+  min-height: 90vh;
+  padding: 40px;
+}
+body > main > .sponsers > .trust > .row:first-of-type > figure > img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body > main > .sponsers > .trust > .row:last-of-type {
+  padding: 60px;
+  height: 90%;
+  width: 55%;
+  color: #C0C0C0;
+}
+body > main > .sponsers > .trust > .row:last-of-type > * {
+  margin: 35px 10px;
+}
+body > main > .sponsers > .trust > .row:last-of-type > h2 {
+  font-size: 4vw;
+}
+body > main > .sponsers > .trust > .row:last-of-type > p {
+  font-size: 1.5vw;
+  color: #b4b0a0;
+}
+body > main > .sponsers > .trust > .row:last-of-type > .line {
+  width: 100%;
+  height: 1px;
+  color: #7E7E7F;
+  border: 0.3px solid #7e7e7f;
+}
+body > main > .sponsers > .trust > .row:last-of-type > .spans {
+  display: flex;
+}
+body > main > .sponsers > .trust > .row:last-of-type > .spans > span {
+  padding: 10px 7px;
+}
+body > main > .sponsers > .trust > .row:last-of-type > .spans > span > * {
+  margin: 10px;
+}
+body > main > .sponsers > .trust > .row:last-of-type > .spans > span > h4 {
+  font-size: 2vw;
+}
+body > main > .sponsers > .trust > .row:last-of-type > .spans > span > p {
+  color: #b4b0a0;
+  font-size: 1.4vw;
+}
+body > main > .sponsers > .trust > .row:last-of-type > .spans > span > p:last-of-type {
+  color: #f6e760;
+  text-decoration: underline;
+}
+body > main > .sponsers > .trust > .row:last-of-type > .spans > span:first-of-type {
+  width: 49%;
+}
+body > main > .sponsers > .trust > .row:last-of-type > .spans > span:last-of-type {
+  width: 51%;
+}
+body > main > .services {
+  background-color: white;
+  min-height: 100vh;
+  padding: 100px 50px;
+}
+body > main > .services > .row {
+  flex-direction: column;
+  align-items: center;
+}
+body > main > .services > .row > * {
+  margin: 10px;
+}
+body > main > .services > .row > span {
+  color: blue;
+  text-decoration: underline;
+  font-size: 1.5vw;
+  text-transform: capitalize;
+}
+body > main > .services > .row > h2 {
+  font-size: 4.5vw;
+}
+body > main > .services > .row > p {
+  font-size: 1.2vw;
+}
+body > main > .services > .photos {
+  margin: 50px 20px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+body > main > .services > .photos > figure {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body > main > .services > .photos > figure > * {
+  margin: 20px 0;
+}
+body > main > .services > .photos > figure > img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body > main > .services > .photos > figure > figcaption > * {
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+body > main > .services > .photos > figure > figcaption > h3 {
+  font-size: 2.3vw;
+}
+body > main > .services > .photos > figure > figcaption > p {
+  font-size: 1.2vw;
+}
+body > main > .projects {
+  background-color: white;
+  padding: 100px;
+  min-height: 100vh;
+  justify-content: space-evenly;
+}
+body > main > .projects > .row:first-of-type {
+  background-image: url(../images/info-11.jpg);
+  background-size: cover;
+  width: 470px;
+  height: 550px;
+  transition: 0.4s;
+}
+body > main > .projects > .row:first-of-type:hover {
+  transform: scale(1.1);
+}
+body > main > .projects > .row:last-of-type {
+  background-image: url(../images/project-4.jpg);
+  background-size: cover;
+  width: 470px;
+  height: 550px;
+  transition: 0.4s;
+}
+body > main > .projects > .row:last-of-type:hover {
+  transform: scale(1.1);
+}
+body > main > .develops {
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+}
+body > main > .develops > .row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+body > main > .develops > .row > .first, body > main > .develops > .row > .second, body > main > .develops > .row > .third {
+  position: relative;
+  width: 28%;
+  height: 100%;
+}
+body > main > .develops > .row > .first > .box, body > main > .develops > .row > .second > .box, body > main > .develops > .row > .third > .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue;
+  border-radius: 10px;
+  width: 280px;
+  height: 40px;
+  position: absolute;
+  top: 440px;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: blue;
+  color: white;
+}
+body > main > .develops > .row > .first > .row, body > main > .develops > .row > .second > .row, body > main > .develops > .row > .third > .row {
+  border: 1px solid #0E0F11;
+  background-color: #23252b;
+  width: 100%;
+  height: 480px;
+  color: white;
+  transition: 0.4s;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+body > main > .develops > .row > .first > .row > p:first-of-type, body > main > .develops > .row > .second > .row > p:first-of-type, body > main > .develops > .row > .third > .row > p:first-of-type {
+  color: blue;
+  font-size: 2vw;
+}
+body > main > .develops > .row > .first > .row > h2, body > main > .develops > .row > .second > .row > h2, body > main > .develops > .row > .third > .row > h2 {
+  font-size: 4vw;
+  margin-top: 100px;
+  padding: 20px;
+}
+body > main > .develops > .row > .first > .row > p, body > main > .develops > .row > .second > .row > p, body > main > .develops > .row > .third > .row > p {
+  font-size: 1.4vw;
+  padding: 20px;
+}
+body > main > .develops > .row > .first > .row:hover, body > main > .develops > .row > .second > .row:hover, body > main > .develops > .row > .third > .row:hover {
+  transform: scale(0.8);
+  bottom: 100px;
+}
+body > main > .footer {
+  width: 100%;
+  min-height: 120px;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body > main > .footer > .row {
+  height: 90px;
+  width: 90%;
+  border: 1px solid #7e7e7f;
+}
+body > main > .footer > .row > span {
+  width: 33.33%;
+  border-right: 1px solid #7e7e7f;
+  color: #C0C0C0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4vw;
+}
+body > main > .footer > .row > span > a {
+  cursor: pointer;
+  transition: 0.4s;
+}
+body > main > .footer > .row > span > a:hover {
+  color: #f6e760;
+  text-decoration: underline;
+}
+body > main > .footer > .row > span > svg {
+  font-size: 1vw;
+  width: 25px;
+  height: 25px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+body > main > .footer > .row > span > svg:hover {
+  width: 28px;
+  height: 28px;
+  color: #f6e760;
+}/*# sourceMappingURL=master.css.map */
