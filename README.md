@@ -1,8 +1,4 @@
-# Programming-Template
 
-# Accordion-Menu-By-React
- **If you have a lot of information to display on your site, why don't you use my 
-accordion menu**
 ![viewfinal]()
 ![view final]()
  [Demo Project](https://soheilahpb.github.io/Programming-Template/)
